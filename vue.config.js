@@ -22,7 +22,7 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    before: require('./mock/index')
+    before: require('./mock/index') // mock服务器
   },
   // 这部分会被 merge到webpack的配置里面
   configureWebpack: {

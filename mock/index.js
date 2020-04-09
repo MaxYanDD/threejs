@@ -15,7 +15,6 @@ function getRoutes() {
 
 function registerRoutes(app) {
   let mockLastIndex
-  console.log(getRoutes())
   const mocksForServer = getRoutes().map(route => {
     const { url, type, response } = route
     return {
